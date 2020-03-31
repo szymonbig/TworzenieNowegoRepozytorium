@@ -1,0 +1,28 @@
+1. Uruchomienie CMD
+2. cd (skopiowana lokalizacja)
+3. Opcjonalnie trzeba usun¹æ wszystkie foldery zwi¹zane z Git-em => rd .git /S/Q
+4. Inicjalizacja git-a => git init
+5. Dodanie komendy => git add .
+6. Dodanie commita => git commit -m "Nazwa pierwszego commita"
+7. Zlinkowanie folderu z git-em na stronie => git remote add origin https://github.com/szymonbig/test.git
+8. Za³adowanie zmian do git-a na stonie => git push -u origin master
+
+
+
+or create a new repository on the command line
+echo "# testowe" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/szymonbig/testowe.git
+git push -u origin master
+                
+
+or push an existing repository from the command line
+git remote add origin https://github.com/szymonbig/testowe.git
+git push -u origin master
+
+git init
+git commit -m "first commit"
+git remote add origin https://github.com/szymonbig/testowe.git
+git push -u origin master
